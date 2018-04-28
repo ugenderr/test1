@@ -3,7 +3,7 @@ pipeline {
    stages {
 	    stage ("Build") {
 				 steps {
-				    sh "which npm"
+				    sh "node -v"
 				 }
 			}
 	 }
