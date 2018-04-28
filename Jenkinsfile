@@ -1,5 +1,6 @@
 pipeline {
-   agent none
+   agent any
+	 tools {nodejs 'latest'}
    stages {
 	    stage ('build') {
 				 steps {
