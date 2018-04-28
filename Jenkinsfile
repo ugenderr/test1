@@ -1,10 +1,10 @@
 pipeline {
-   agent any
-	 tools {nodejs 'latest'}
+   agent { label "nodejs"}
+	 tools {nodejs "Node 8.4.0"}
    stages {
-	    stage ('build') {
+	    stage ("Build") {
 				 steps {
-				    sh 'npm install'
+				    sh "npm install"
 				 }
 			}
 	 }
