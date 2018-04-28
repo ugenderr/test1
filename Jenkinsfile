@@ -1,0 +1,12 @@
+Pipeline {
+   agent{
+	   label 'nodejs'
+	 }
+   stages {
+	    stage ('build') {
+				 steps {
+				    sh 'npm install'
+				 }
+			}
+	 }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "jenkins test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jenkins",
+    "nodeJs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3",
+    "moment": "2.22.1",
+    "phonenum": "1.0.3"
+  }
+}
