@@ -1,6 +1,6 @@
 pipeline {
-   agent { label "nodejs"}
-	 tools {nodejs "Node 8.4.0"}
+   agent any
+	 tools {nodejs "Node 8.x"}
    stages {
 	    stage ("Build") {
 				 steps {
